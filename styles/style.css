@@ -1,0 +1,47 @@
+
+/*是整个页面的父元素，而且它所有的子元素都会继承相同*/
+html{
+  /* px 表示 “像素（pixels）”: 基础字号为 10 像素 */
+  font-size: 10px; 
+  /* Google fonts 输出的 CSS */
+  font-family: 'Germania One', cursive;
+  background-color: #00539F;
+}
+
+h1 {
+  /* 字体大小*/
+  font-size: 60px;
+  /*字体文本对齐*/
+  text-align: center;
+}
+
+p, li {
+  /*字体大小*/
+  font-size: 16px;    
+  /*每一行间距*/
+  line-height:2;
+  /*字母之间间距*/
+  letter-spacing: 1px;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #FF9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;    
+  color: #00539F;
+  text-shadow: 3px 3px 1px black;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+/*sava*/
